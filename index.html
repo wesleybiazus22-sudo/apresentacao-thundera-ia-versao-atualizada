@@ -2516,7 +2516,7 @@ Capacidade de Entrega<br/>Técnica Mantida
                         res.innerHTML =
                             card('Acesso por Membro', fmt(t.perDev), '/mês por pessoa ativa', false) +
                             card('Licenciamento Mensal', fmt(monthly), devs + ' pessoas × ' + fmt(t.perDev), true) +
-                            card('Taxa de Implantação', fmt(t.iMin) + ' – ' + fmt(t.iMax), 'Onboarding + Integração', false);
+                            card('Taxa de Implantação', fmt(t.iMax), 'Onboarding + Integração', false);
                         note.textContent = '* Faixa comercial atingida: ' + t.min + ' à ' + t.max + ' membros. Valores faturados integralmente em BRL.';
                     };
 
